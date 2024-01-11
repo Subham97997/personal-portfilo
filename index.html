@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal portfolio website - by subham tech</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!--header section-->
+    <div id="header">
+<div class="container">
+  <nav>
+    <img src="images/03.jpg" class="logo">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+      <i class="fa-solid fa-xmark"></i>
+    </ul>
+    <i class="fa-solid fa-bars"></i>
+  </nav>
+  <!--header text-->
+  <div class="header-text">
+    <p>Full Stack Developer</p>
+    <h1>Hi, I am <span> Subham Kumar</span> <br> from India</h1>
+  </div>
+</div>
+    </div>
+
+    <!--About page-->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/04.jpg">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetu
+              r adipisicing elit. Laboriosam, a? Pra
+              esentium mollitia officiis quo facilis,
+               illum cumque veritatis aliquam quasi ut blanditiis 
+              et doloribus fuga minus corporis hic error quas?</p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experince')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <!--skills-->
+              <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                  <li><span>UI/UX</span><br>Designing web/App interface</li>
+                  <li><span>Web Development</span><br>Web app Development</li>
+                  <li><span>App Development</span><br>Designing web/App interfaces</li>
+
+                </ul>
+              </div>
+
+               <!--experince-->
+              <div class="tab-contents" id="experince">
+                <ul>
+                  <li><span>No Experience</span><br>Designing web/App interface</li>
+                  <li><span>2017 - 2018</span><br>UI/UX design</li>
+                  <li><span>2016-2017</span><br>Designing web/App
+                     interfaces internship at ekart ecoomerce</li>
+
+                </ul>
+              </div>
+               <!--Education-->
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>UI/UX</span><br>Designing web/App interface</li>
+                  <li><span>Web Development</span><br>Web app Development</li>
+                  <li><span>App Development</span><br>Designing web/App interfaces</li>
+
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--services-->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Designing</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+               Doloribus perspiciatis voluptatem, eaque eos rem aliquam corporis et, aliquid architecto iure deserunt
+              . Tenetur corrupti blanditiis nisi architecto natus quas
+              , voluptates esse!</p>
+              <a href="#">learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>App Designing</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+               Doloribus perspiciatis voluptatem, eaque eos rem aliquam corporis et, aliquid architecto iure deserunt
+              . Tenetur corrupti blanditiis nisi architecto natus quas
+              , voluptates esse!</p>
+              <a href="#">learn more</a>
+          </div>
+
+
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>website Designing</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+               Doloribus perspiciatis voluptatem, eaque eos rem aliquam corporis et, aliquid architecto iure deserunt
+              . Tenetur corrupti blanditiis nisi architecto natus quas
+              , voluptates esse!</p>
+              <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--portfolio-->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/mob.jpg" >
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>The app connects you to the talented people around the world</p>
+          <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>       
+      </div>
+
+      <div class="work">
+        <img src="images/mob2.jpg" >
+        <div class="layer">
+        <h3>music App</h3>
+        <p>The app connects you to the talented people around the world</p>
+      <a href="#"><i class="fa-solid fa-link"></i></a>
+      </div>   
+      </div>
+
+      <div class="work">
+        <img src="images/mob3.jpg" >
+        <div class="layer">
+        <h3>Social chat App</h3>
+        <p>The app connects you to the talented people around the world</p>
+      <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+<!-----------------------------contact ------------------------------------------------>
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1  class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>subham.thakur0097@gmail.com</p>
+        <p><i class="fa-solid fa-phone-volume"></i>+91-9507778253</p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+        <a href="images/Subham_[834] - Copy.pdf" download class="btn btn2">Download Cv</a>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email"required>
+          <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+  <!--copyright-->
+<div class="copyright">
+  <P>@copyright-subh tech.<i class="fa-solid fa-heart"></i> Made with by tech subh </P>
+</div>
+</div>
+
+  
+    <script src="index.js"></script>
+  
+  </body>
+</html>
